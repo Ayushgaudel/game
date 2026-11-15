@@ -83,6 +83,9 @@ def Beautiful():
 
 
 def start():
+    print("One dark and mysterious night, you came to understand the truth behind 2 mysterious \n doors present in your town.\n One door led to a world of happiness, while the other led to a world of danger. Nobody knew what was behind them, and the only way to find out was to choose one.")
+    
+    
     name = input("Enter your name:")
     print("Hello ",  name)
     
