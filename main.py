@@ -90,7 +90,7 @@ def start():
     print("Hello ",  name)
     
     
-    print("You are stuck here!,\n choose one door to exist.")
+    print("You are stuck here!,\n choose one door to exit.")
 
 
     print("There are two Doors in opposite direction with each other.One is black and other is white")
