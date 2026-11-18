@@ -9,7 +9,9 @@ In this game, you take on  making critical decisions, and dealing with the conse
 
 ## Features
 
-This is a simple game but it has some funny parts and ghosts which will kill you
+This is a simple game but it has some funny parts and ghosts which will kill you. Here are some ghost of RCOV 
+
+
 
 
 
