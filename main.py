@@ -21,15 +21,24 @@ def haunted():
                 else:
                     print("You typed wrong please try again from the starting...")
                 
-                
+                user456 = input("Heyy, which door do you choose; red or blue (R/B):").lower().strip()
+                if user456 == "r":
+                    print("Wow, you have been saved by suvam sapkota.You are safe and finished the game😱")
+                else:
+                    print("It seems you missed an oppertunity in red door \n it's okay, but you have to visit an random door inhere now")
+                    user567 = input("Press, D to open the random door(d):").lower().strip()
+                    if user567 == d:
+                        print("You have been killed by diparsan paudel💦")
+                        print("The game ends for you, go blame diparsion paudel 🤡")
+
             elif playerinput4 == "r":
                 print("You must run fast something is chasing you")
+                print("This thing is aayush pathak, now you will die because of his superstrenght😂")
                 print("Ohh noo, you can't run faster than this \n Game ends......")
 
         if playerinput2 == "n":
-            print("You coward😡, Scared of exploring ")
+            print("You coward😡, Scared of exploring, suc.xem pathak thinks you are scared of him😎")
             print(" For you \n The game ends.......")
-
           
             
 
@@ -117,9 +126,9 @@ def Beautiful():
 
 def start():
     print("One dark and mysterious night, you came to understand the truth behind 2 mysterious \n doors present in your town.\n One door led to a world of happiness, while the other led to a world of danger. Nobody knew what was behind them, and the only way to find out was to choose one.")
+    print("Here are some super villians of RCOV, which will kill you.Hope you finish this game before they kill you👌")
     
-    
-    name = input("Enter your name:")
+    name = input("Enter your name💀:")
     print("Hello ",  name)
     
     
