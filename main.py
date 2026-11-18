@@ -14,7 +14,14 @@ def haunted():
 
             if playerinput4 == "g":
                 print("ohh!! Thats a cat, \n you are safe")
-                user_input0 = input("Now enjoy the view of the game \n The game ends......")
+                user_input0 = input("Now enjoy the view of the game")
+                user34 = input("Now you must stop and go to the other do nearly 1 km far from here (type run):").lower().strip()
+                if user34 == "no":
+                    print("So lets runnnnnn...... \n started running.....")
+                else:
+                    print("You typed wrong please try again from the starting...")
+                
+                
             elif playerinput4 == "r":
                 print("You must run fast something is chasing you")
                 print("Ohh noo, you can't run faster than this \n Game ends......")
@@ -46,8 +53,34 @@ def prison():
         print(user_input7)
         if user_input7 == "y":
             print("Good👍...")
+            user_input45 = input("So lets start breaking your 20 stones (Type ok to continue)").lower().strip()
+            print(user_input45)
+            print("to break stones press y (for 1 stone)")
+            user_input46 = input("start mining (y)")
+            print(user_input46)
+            print("Wow, you have mined 1 stone")
+            input_user2 = input("Press 5 times to mine 5 stones once:")
+            print(input_user2)
+            print("WOW, you have mined 6 stones till now" )
+            input456 = input("Press all to make your freinds to mine left over stones:")
+            print("wow you have finished mining all your stones")
+            print("Now you will get food for dinner")
         elif user_input7 == "n":
-            print("Then you won't get food 🍱.....")    
+            print("Then you won't get food 🍱.....")        
+            user = input("Type sorry and start mining (sorry):")
+            user_input45 = input("So lets start breaking your 20 stones (Type ok to continue)").lower().strip()
+            print(user_input45)
+            print("to break stones press y (for 1 stone)")
+            user_input46 = input("start mining (y)")
+            print(user_input46)
+            print("Wow, you have mined 1 stone")
+            input_user2 = input("Press 5 times to mine 5 stones once:")
+            print(input_user2)
+            print("WOW, you have mined 6 stones till now" )
+            input456 = input("Press all to make your freinds to mine left over stones:")
+            print("wow you have finished mining all your stones")
+            print("Now you will get food for dinner") 
+
 
 
 def Beautiful():
